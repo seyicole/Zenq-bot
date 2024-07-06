@@ -6,7 +6,7 @@ import { TwitterApi } from 'twitter-api-v2';
 // Zen Quotes API endpoint
 const zenQuotesUrl = 'https://zenquotes.io/api/random';
 
-// Twitter API credentials
+// Twitter API credentials ...
 const twitterClient = new TwitterApi({
   appKey: process.env.TWITTER_API_KEY,
   appSecret: process.env.TWITTER_API_SECRET,
